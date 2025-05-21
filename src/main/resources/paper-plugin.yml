@@ -1,0 +1,7 @@
+name: skull-lite
+version: '${version}'
+main: de.raphaelgoetz.skullLite.SkullLite
+api-version: '1.21'
+author: 'Konfuzius'
+website: 'https://raphael-goetz.de'
+description: "A minimal Minecraft skull registry that gives you access to thousands of custom skulls."
