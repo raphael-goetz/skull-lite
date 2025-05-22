@@ -59,7 +59,7 @@ class SkullFileReader(
         val category = data[0]
         val name = data[1]
         val url = data[2]
-        val query = data[3].split("|")
+        val query = (data[3] + "|$name").split("|")
         val item = url.toSmartItem(name)
 
         return SkullMetaData(category, item, query)
